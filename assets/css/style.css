@@ -221,7 +221,8 @@ nav {
 }
 
 .boxModal img {
-  width: 120px;
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .boxModal h1 {
