@@ -30,6 +30,7 @@ const openModal = () => {
     
     boxModal.style.display = 'flex';
     boxModal.style.alignItems = 'center';
+    boxModal.style.marginTop = '60px'
 };   
 
 const closeModal = () => {
