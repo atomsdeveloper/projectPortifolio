@@ -131,7 +131,7 @@ nav {
   width: 280px;
   height: 300px;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
   align-items: center;
   border-radius: 10px;
@@ -192,6 +192,18 @@ nav {
 /* End Section Card */
 
 @media (max-width: 600px) {
+  .containerCard .boxCard .content {
+    opacity: 1;
+    padding: 20px;
+    transition: 0.2s;
+    text-align: center;
+    transform: translateY(0px);
+  }
+  
+}
+
+
+@media (max-width: 600px) {
   .btnMobile {
     display: block;
     border: none;
@@ -204,6 +216,10 @@ nav {
     display: grid;
     justify-items: start;
     margin-left: -10px;
-    margin: 65px 15px -4px 0px;
+    margin: 50px -10px -4px 0px;
+  }
+
+  .containerDescription {
+    margin-top: 120px;
   }
 }
