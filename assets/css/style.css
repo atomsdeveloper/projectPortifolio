@@ -103,11 +103,9 @@ nav {
 
 /* Start Section Cards */
 .containerCard {
-  z-index: 1;
   display: flex;
   max-width: auto;
   flex-wrap: wrap;
-  /* margin-top: 10px; */
   position: relative;
   align-items: center;
   justify-content: space-around;
@@ -190,8 +188,8 @@ nav {
   background: linear-gradient(267deg, rgba(54,81,182,1) 35%, rgba(0,212,255,1) 100%);
 }
 
-.btnModal:hover {
-  background:  linear-gradient(267deg, rgb(109, 229, 253) 35%, rgb(72, 95, 178) 100%);;
+.btnModal input:hover {
+  background:  linear-gradient(267deg, rgb(109, 229, 253) 35%, rgb(72, 95, 178) 100%);
 }
 
 .titleModal {
