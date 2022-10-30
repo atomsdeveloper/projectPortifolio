@@ -1,17 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
   box-sizing: border-box;
-  border: none !important;
-  font-family: "Poppins" !important;
+  font-family: 'Poppins';
+  text-decoration: none !important;
 }
 
 body {
+  width: 100vw;
   margin: 0;
   padding: 0;
+}
+
+/* Start Section Nav */
+nav {
+  margin: 20px;
 }
 
 .navbar {
@@ -28,10 +34,12 @@ body {
 .container {
   margin-top: 15px;
   border-radius: 15px;
+  
 }
 
 .iconLogo {
-  width: 50px;
+  width: 45px;
+  margin: 10px;
   margin-left: 25px;
 }
 
@@ -72,10 +80,121 @@ body {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   background: linear-gradient(60deg, rgb(0, 147, 233) 0%, rgb(140, 234, 240) 100%);
 }
+/* End Section Nav */
+
+/*  */
+.containerDescription {
+  width: 100vw; 
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.containerDescription .boxDescription {
+  width: 80vw;
+  margin-left: 10px;
+}
+
+.containerDescription .boxDescription span {
+  font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+/* Start Section Cards */
+.containerCard {
+  z-index: 1;
+  display: flex;
+  max-width: auto;
+  flex-wrap: wrap;
+  /* margin-top: 10px; */
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.containerCard .boxCard {
+  margin: 20px;
+  width: 280px;
+  height: 300px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.containerCard .boxCard .content {
+  opacity: 0;
+  padding: 20px;
+  transition: 0.2s;
+  text-align: center;
+  transform: translateY(100px);
+}
+
+.containerCard .boxCard:hover .content {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.containerCard .boxCard:hover .content h2 {
+  bottom: 175px;
+  right: 30px;
+  font-size: 3rem;
+  position: absolute;
+  pointer-events: none;
+  color: rgba(146, 146, 146, 0.4);
+}
+
+.containerCard .boxCard:hover .content h3 {
+  z-index: 1;
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0,);
+  
+}
+
+.containerCard .boxCard:hover .content p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #000;
+}
+
+.containerCard .boxCard:hover .content a {
+  color: #000;
+  margin-top: 15px;
+  padding: 7px 10px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  display: inline-block;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
+}
+/* End Section Card */
 
 @media (max-width: 600px) {
   .btnMobile {
     display: block;
+    border: none;
   }
   .listMenu {
     display: none;
@@ -86,11 +205,5 @@ body {
     justify-items: start;
     margin-left: -10px;
     margin: 65px 15px -4px 0px;
-    /* background: linear-gradient(60deg, rgb(0, 147, 233) 0%, rgb(140, 234, 240) 100%);
-    border-radius: 17px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    box-shadow: 0px 5px 10px rgb(0 0 0 / 20%); */
   }
-
 }

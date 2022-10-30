@@ -6,46 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/img/iconDesign.png">
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <title> Renan Nascimento da silva </title>
 </head>
 
 <body>
-    <nav class="container navbar ">
-        <div class="container-fluid">
-            
-            <div>
-                <img class="iconLogo" src="./assets/img/iconLogo.png" alt=" Logo do Portifólio">
-            </div>
-            
-            <div class="containerList">
-                <ul class="listMenu" id="menu">
-                    <li><a id="linksMenu" href="https://www.google.com/" target="_blank"> ABOUNT </a></li>
-                    <li><a id="linksMenu" href="https://www.google.com/" target="_blank"> MORE </a></li>
-                    <li><a id="linksMenu" href="https://www.google.com/" target="_blank"> CONTACT </a></li>
-                </ul>
-                <!-- Start Button Menu Mobile -->
-                <div class="containerMobile">
-                    <button class="btnMobile" id="btn"> MENU </button>
-                </div>
-                <!-- End Button Menu Mobile -->
-            </div>
 
+    <nav>
+        <div class="container navbar ">
+            <div class="container-fluid">
+                
+                <div>
+                    <img class="iconLogo" src="./assets/img/iconLogo.png" alt=" Logo do Portifólio">
+                </div>
+                
+                <div class="containerList">
+                    <ul class="listMenu" id="menu">
+                        <li><a id="linksMenu" href="https://www.google.com/" target="_blank"> ABOUNT </a></li>
+                        <li><a id="linksMenu" href="https://www.google.com/" target="_blank"> MORE </a></li>
+                        <li><a id="linksMenu" href="https://www.google.com/" target="_blank"> CONTACT </a></li>
+                    </ul>
+    
+                    <!-- Start Button Menu Mobile -->
+                    <div class="containerMobile">
+                        <button class="btnMobile" id="btn"> MENU </button>
+                    </div>
+                    <!-- End Button Menu Mobile -->
+                    
+                </div>
+    
+            </div>
         </div>
     </nav>
 
-    <section>
-        
-        <div></div>
-        <div></div>
-        <div></div>
-        
+    <section class="containerDescription">
+        <div class="boxDescription">
+            <span> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores reprehenderit quis eligendi hic. Excepturi voluptates consequuntur odio laudantium, vel, 
+                quaerat officia ab nemo omnis fuga animi esse libero assumenda.
+            </span>
+        </div>
     </section>
+
+    <div class="containerCard">
+
+        <div class="boxCard" id="card">
+            <div class="content">
+                <h2>HTML</h2>
+                <h3>Tudo de HTML</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur beatae neque omnis, suscipit eveniet alias illo laudantium recusandae nulla voluptate adipisci vel.</p>
+                <a href="#">Mais Informações!</a>
+            </div>
+        </div>
+
+        <div class="boxCard" id="card">
+            <div class="content">
+                <h2>CSS</h2>
+                <h3>Tudo de CSS</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur beatae neque omnis, suscipit eveniet alias illo laudantium recusandae nulla voluptate adipisci vel.</p>
+                <a href="#">Mais Informações!</a>
+            </div>
+        </div>
+
+        <div class="boxCard" id="card">
+            <div class="content">
+                <h2>JS</h2>
+                <h3>Tudo de Javascript</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur beatae neque omnis, suscipit eveniet alias illo laudantium recusandae nulla voluptate adipisci vel.</p>
+                <a href="#">Mais Informações!</a>
+            </div>
+        </div>
+    </div>
     
 
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-    <script src="./controller/app.js"></script>
+    <!-- <script src="./assets/bootstrap/bootstrap.bundle.min.js"></script> -->
+    <script type="text/javascript" src="./controller/vanilla-tilt.js"></script>
+    <script type="text/javascript" src="./controller/app.js"></script>
 </body>
 
 </html>
