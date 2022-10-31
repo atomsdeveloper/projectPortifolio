@@ -103,7 +103,7 @@ nav {
 /* End Section Title Description */
 
 /* Start Section Cards */
-.containerCard {
+/* .containerCard {
   display: flex;
   max-width: auto;
   flex-wrap: wrap;
@@ -171,11 +171,11 @@ nav {
   border-radius: 8px;
   display: inline-block;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
-}
+} */
 /* End Section Card */
 
 /* Start Modal */
-.containerModal {
+/* .containerModal {
   width: 100vh;
   height: auto;
   display: none;
@@ -215,7 +215,7 @@ nav {
   border-radius: 8px;
   box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.3);
   background: #fff
-}
+} */
 
 
 @media (max-width: 700px) {
