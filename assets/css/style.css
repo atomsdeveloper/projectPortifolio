@@ -122,10 +122,7 @@ nav {
   align-items: center;
   border-radius: 10px;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4);
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
-  border-left: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .containerCard .boxCard .content {
@@ -177,28 +174,6 @@ nav {
 }
 /* End Section Card */
 
-.btnModal {
-  cursor: pointer;
-  border: none;
-  margin: 15px;
-  padding: 8px;
-  color: #fff;
-  font-size: 8pt;
-  font-weight: 700;
-  border-radius: 9px;
-  background: linear-gradient(267deg, rgba(54,81,182,1) 35%, rgba(0,212,255,1) 100%);
-}
-
-.btnModal input:hover {
-  background:  linear-gradient(267deg, rgb(109, 229, 253) 35%, rgb(72, 95, 178) 100%);
-}
-
-.titleModal {
-  max-width: 300px;
-  text-align: center;
-}
-
-
 /* Start Modal */
 .containerModal {
   width: 100vh;
@@ -207,7 +182,7 @@ nav {
   justify-content: center;
 }
 
-.boxModal {
+.containerModal .boxModal {
   padding: 15px;
   max-width: 30vw;
   height: auto;
@@ -219,17 +194,17 @@ nav {
   box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
-.boxModal img {
+.containerModal .boxModal img {
   width: 60px;
   margin-bottom: 10px;
 }
 
-.boxModal h1 {
+.containerModal .boxModal h1 {
   font-size: 20pt;
   margin-bottom: 15px;
 }
 
-.boxModal input {
+.containerModal .boxModal input {
   width: 100px;
   padding: 7px;
   margin: 10px;
