@@ -1,9 +1,9 @@
-// VanillaTilt.init(document.querySelector(".boxCard"), {
-    //     max: 25,
-    //     speed: 500,
-    //     glare: true,
-    //     "max-glare": 0.7
-    // });
+VanillaTilt.init(document.querySelector("#card"), {
+        max: 25,
+        speed: 500,
+        glare: true,
+        "max-glare": 0.7
+});
     
 alert(`Em Desenvolvimento!!!`)
     
@@ -27,6 +27,7 @@ const openModal = () => {
     
     modal.style.display = 'flex';
     modal.style.width = '100%';
+    modal.style.marginBottom = '50px';
     
     boxModal.style.display = 'flex';
     boxModal.style.alignItems = 'center';
